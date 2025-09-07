@@ -35,6 +35,13 @@ export default function Contact() {
       color: 'from-gray-800 to-gray-900',
       link: 'https://github.com/rawad123321',
     },
+     {
+    name: 'WhatsApp',
+    value: 'Feel free to send me a WhatsApp message',
+    icon: MessageCircle,
+    color: 'from-green-400 to-green-600',
+    link: 'https://wa.me/96171393753?text=Hi%20Rawad%2C%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect!',
+  },
   ];
 
   const onSubmit = async (data: FormData) => {

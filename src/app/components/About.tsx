@@ -27,9 +27,11 @@ export default function About() {
               />
             </div>
             {/* Responsive Let's Connect button */}
-            <span className="block md:absolute md:bottom-[-24px] md:right-2 mt-4 md:mt-0 bg-primary text-white px-4 py-1 rounded-full text-sm font-semibold shadow-lg animate-bounce text-center w-max mx-auto">
+            <a 
+               href="#contact"
+              className="block md:absolute md:bottom-[-24px] md:right-2 mt-4 md:mt-0 bg-primary text-white px-4 py-1 rounded-full text-sm font-semibold shadow-lg animate-bounce text-center w-max mx-auto">
               Let&apos;s Connect!
-            </span>
+            </a>
           </div>
         </motion.div>
         {/* About Content */}
@@ -46,10 +48,10 @@ export default function About() {
           <p className="text-xl text-text/80 mb-8 leading-relaxed">
             Hi! I&apos;m Rawad Nounou, a creative software engineer who loves turning ideas into beautiful, user-friendly digital experiences. I thrive on collaboration, clear communication, and continuous learning. My work blends modern design with robust engineering, always aiming for impact and delight.
           </p>
-          <span className="inline-block px-6 py-2 bg-background border border-primary rounded-full text-primary font-semibold shadow hover:bg-primary hover:text-white transition-colors duration-300 cursor-default">Based in Beirut, Lebanon</span>
-          <span className="inline-block px-6 py-2 bg-background border border-secondary rounded-full text-secondary font-semibold shadow hover:bg-secondary hover:text-white transition-colors duration-300 cursor-default">Open to remote work</span>
+          <span className="inline-block px-6 py-2 bg-background border border-primary rounded-full text-primary font-semibold shadow hover:bg-primary hover:text-white transition-colors duration-300 cursor-default">Based in Beirut, Lebanon and Barcelona, Spain.</span>
+          <span className="inline-block px-6 py-2 bg-background border border-primary rounded-full text-primary font-semibold shadow hover:bg-primary hover:text-white transition-colors duration-300 cursor-default">Open to remote work.</span>
           <br />
-          <span className="inline-block px-6 py-2 bg-background border border-secondary rounded-full text-secondary font-semibold shadow hover:bg-secondary hover:text-white transition-colors duration-300 cursor-default">Willing to relocate.</span>
+          <span className="inline-block px-6 py-2 bg-background border border-primary rounded-full text-primary font-semibold shadow hover:bg-primary hover:text-white transition-colors duration-300 cursor-default">Willing to relocate.</span>
         </motion.div>
       </div>
     </section>
